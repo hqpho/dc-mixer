@@ -2,6 +2,7 @@
 mixer:
   hostProject: datcom-mixer
   serviceName: api.datacommons.org
+  enableOtlp: true
 
 ingress:
   enabled: true
