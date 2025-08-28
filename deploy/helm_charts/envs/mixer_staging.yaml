@@ -2,6 +2,9 @@
 mixer:
   hostProject: datcom-mixer-staging
   serviceName: staging.api.datacommons.org
+  useSpannerGraph: true
+  useRedis: true
+  enableV3: true
   enableOtlp: true
 
 ingress:

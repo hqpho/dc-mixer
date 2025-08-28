@@ -1,6 +1,6 @@
-# Mixer autopush redis config:
+# Redis config using an instance in datcom-mixer-autopush:
 # https://console.cloud.google.com/memorystore/redis/locations/us-central1/instances/mixer-cache/details/overview?project=datcom-mixer-autopush
-# Each deployment should use its own config.
+# Eventually, each environment should use its own config.
 
 instances:
   - region: us-central1
